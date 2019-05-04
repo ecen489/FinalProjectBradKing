@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationActivity">
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSubmi"
+        android:layout_marginTop="30dp"
+        android:text="Return"
+        android:onClick="Return"
+        />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Time"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTime"
+        android:layout_marginTop="30dp"
+        android:text="Date"
+        android:textSize="25dp"
+         />
+
+    <Button
+        android:id="@+id/buttonSetNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDate"
+        android:layout_marginTop="30dp"
+        android:text="Set Notification"
+         />
+
+    <Button
+        android:id="@+id/buttonSubmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSetNotification"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+         />
+
+
+</RelativeLayout>

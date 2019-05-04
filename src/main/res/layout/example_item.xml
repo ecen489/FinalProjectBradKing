@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+        <TextView
+            android:id="@+id/text_viewR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No detection yet"
+            android:textStyle="bold"/>
+
+        <com.google.firebase.codelab.mlkit.GraphicOverlay
+            android:id="@+id/graphicOverlayRecycler"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+             />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
